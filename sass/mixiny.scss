@@ -1,0 +1,14 @@
+@mixin flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin pseudoelement {
+  content: "";
+  position: absolute;
+  display: block;
+}
+@mixin full-screen {
+  width: 100%;
+  height: 100%;
+}
