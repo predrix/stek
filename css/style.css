@@ -227,6 +227,14 @@ nav .nav-link {
     opacity: 0.8 !important; }
     #story-4 .carousel-indicators li:hover {
       box-shadow: 0 0 1em #fff; }
+  #story-4 #main-prev, #story-4 #main-next {
+    top: 48%;
+    height: 18px;
+    width: 18px; }
+  #story-4 #main-prev {
+    left: 7%; }
+  #story-4 #main-next {
+    right: 7%; }
   #story-4 .second h1 {
     color: black; }
   #story-4 .second ul {

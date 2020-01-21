@@ -208,6 +208,17 @@ nav {
 			box-shadow: 0 0 1em #fff;
 		}
 	}
+	#main-prev, #main-next {
+		top: 48%;
+		height: 18px;
+		width: 18px;
+	}
+	#main-prev {
+		left: 7%;
+	}
+	#main-next {
+		right: 7%;
+	}
 	.second {
 		h1 {
 			color: black;
