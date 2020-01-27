@@ -1,13 +1,16 @@
+/* ============ navbar =============*/
+let navbarHeight = $('nav').height();
+
 $(window).scroll(function () {
 		if ($(this).scrollTop() > $('header').height()) {
 			$('nav').addClass('fixed-top');
-            $('body').css({'padding-top': '80px'});
+            $('body').css({'padding-top': navbarHeight});
 		} else {
 			$('nav').removeClass('fixed-top');
             $('body').css({'padding-top': '0'});
 		}
 });
-
+/* ============= smoth scroll =============*/
 function scroll(e) {
 
     let href = $(this).attr('href');
@@ -21,6 +24,7 @@ function scroll(e) {
 
 $('a[href^="#"]').click(scroll);
 
+/* ============= scroller =================*/
 const scroller = document.querySelector('.scroll');
 
 function start() {
@@ -33,5 +37,9 @@ start();
 $('.scroll').click(function () {
     $('#move').hide();
 });
+
+/* =========== navbar colapsse not moving content ==============*/
+
+
 
 
