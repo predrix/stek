@@ -50,6 +50,9 @@ section .title {
 .invisible {
 	opacity: 0;
 }
+.fixed-top {
+	background: #fff !important;
+}
 // ===== home-1 =====
 header {
 	position: relative;
@@ -64,9 +67,7 @@ header {
 		z-index: 2;
 	}
 }
-.fixed-top {
-	background: #fff !important;
-}
+
 .on-carousel {
 	@include flexy;
 	@include full-screen;

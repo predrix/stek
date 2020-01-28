@@ -91,6 +91,9 @@ section .title {
 .invisible {
   opacity: 0; }
 
+.fixed-top {
+  background: #fff !important; }
+
 header {
   position: relative;
   z-index: 1; }
@@ -105,9 +108,6 @@ header {
     background: linear-gradient(to left, #c21500, #ffc500);
     opacity: 0.8;
     z-index: 2; }
-
-.fixed-top {
-  background: #fff !important; }
 
 .on-carousel {
   display: flex;
