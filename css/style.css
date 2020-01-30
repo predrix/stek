@@ -232,8 +232,6 @@ nav .nav-link {
     width: 15px !important;
     background-color: black !important;
     opacity: 0.8 !important; }
-    #story-4 .carousel-indicators li:hover {
-      box-shadow: 0 0 1em #fff; }
   #story-4 #main-prev, #story-4 #main-next {
     top: 48%;
     height: 18px;
