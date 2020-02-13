@@ -308,11 +308,13 @@ button {
   .menu_pack {
     display: inline-flex;
     position: relative;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: center; }
   .menu_food {
     margin-left: 16px; }
   .menu_name {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-top: 10px; }
   .menu_text {
     margin-top: 20px;
     font-size: 16px; }
@@ -453,7 +455,8 @@ button {
       font-size: 25px; }
   .gallery_text {
     font-size: 20px;
-    margin: 15px; }
+    margin: 15px;
+    text-align: center; }
   .gallery .container {
     margin-top: 50px; }
 

@@ -286,12 +286,14 @@ button {
 		display: inline-flex;
 		position: relative;
 		margin-bottom: 30px;
+		text-align: center;
 	}
 	&_food {
 		margin-left: $font;
 	}
 	&_name {
 		font-size: 20px;
+		margin-top: 10px;
 	}
 	&_text{
 		margin-top: 20px;
@@ -452,6 +454,7 @@ button {
 	&_text {
 		font-size: 20px;
 		margin: 15px;
+		text-align: center;
 	}
 	.container {
 		margin-top: 50px;
