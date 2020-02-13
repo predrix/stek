@@ -1,5 +1,5 @@
 (function() {
-  const chooseBtn = document.querySelectorAll('.choose-btn');
+  const chooseBtn = document.querySelectorAll('.gallery_btn');
   chooseBtn.forEach(function(btn) {
     btn.addEventListener('click', function(event){
       event.preventDefault();

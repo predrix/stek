@@ -25,7 +25,7 @@ function scroll(e) {
 $('a[href^="#"]').click(scroll);
 
 /* ============= scroller =================*/
-const scroller = document.querySelector('.scroll');
+const scroller = document.querySelector('.onCarousel_scroll');
 
 function start() {
     setTimeout(() => {
@@ -34,11 +34,10 @@ function start() {
 }
 start();
 
-$('.scroll').click(function () {
+$('.onCarousel_scroll').click(function () {
     $('#move').hide();
 });
 
-/* =========== navbar colapsse not moving content ==============*/
 
 
 
